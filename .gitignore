@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# MacOS
+.DS_Store
+
+# VSCode or other editor settings
+.vscode/
+.idea/

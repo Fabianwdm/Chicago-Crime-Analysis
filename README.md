@@ -123,4 +123,3 @@ This notebook focuses on data preparation and caching:
 
 ## Acknowledgments
 - City of Chicago for providing the open crime data
-- The Chicago Sun Times and other sources for contextual information on crime trendsFiller

@@ -3,11 +3,11 @@
 ## Project Overview
 This Streamlit-based dashboard visualizes and analyzes crime data in Chicago from 2001 to the present day. Using data from the [Chicago Data Portal](https://data.cityofchicago.org), this application provides interactive visualizations and insights into crime patterns across Chicago's communities, with a particular focus on:
 
-1. How crime has changed over the last 20 years
-2. Why narcotic crimes have decreased over time despite high drug use
-3. How crime is distributed geographically across the city
-4. How COVID-19 affected crime rates
-5. The distribution of shootings and homicides
+1. How crime has changed over the last 20 years?
+2. Why narcotic crimes have decreased over time despite high drug use?
+3. How crime is distributed geographically across the city?
+4. How COVID-19 affected crime rates?
+5. The distribution of shootings and homicides?
 
 ## Data Sources
 - **Main Crime Dataset**: [Chicago Crime Data (2001-Present)](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data) - Contains over 8 million recorded crimes
@@ -70,13 +70,12 @@ The project uses a data caching system to enhance performance:
    ```
    pip install -r requirements.txt
    ```
-3. Download the necessary datasets:
-   - The main Chicago crime dataset
-   - Chicago community area boundaries GeoJSON
-   - Shooting victims dataset (if analyzing this separately)
+#### Here you can either download the dataset or skip to the final step:
 
-4. Place the datasets in the `data/` directory
-5. Run the preprocessing notebook(s) to generate the cached data files
+4. Download the necessary datasets if you wish to run it by yourself:
+   - The main Chicago crime dataset **Sample data provide**
+
+5. Place the datasets in the `data/` directory
 6. Run the Streamlit application:
    ```
    streamlit run chicago_crime.py
